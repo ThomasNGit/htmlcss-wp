@@ -30,7 +30,7 @@ header {
 
 }
 .logo {
-  height: 70%;
+ height: 70%;
   background: url("../img/naturallogo.png") no-repeat center;
   background-size: contain;
   margin-bottom: 30px;
@@ -44,7 +44,7 @@ h1 {
 
 /* stile della navbar */
 .navbar {
-  height:10%;
+  /* height:10%; */
   background-color: rgb(102, 102, 102);
   border: 2px solid black;
 }
@@ -67,7 +67,7 @@ ul{
   height: 800px;
   width: 70%;
   margin: 10px auto;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .maincontainer:after{
@@ -78,11 +78,12 @@ ul{
 }
 /* stile del blocco di sx */
 .bloccosx {
-  height: 60%;
+  /* height: 60%; */
   width: 20%;
   background-color: white;
   float: left;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 .title{
@@ -92,20 +93,32 @@ ul{
 
 .feedlink{
   display: inline-block;
-  margin: 20px auto;
+  margin: 20px 30px;
   text-align: center;
   color: green;
   font-weight: bold;
-  text-decoration: none;  
+  text-decoration: none;
 }
 /* stile del blocco centrale */
 .bloccocentrale{
-  height: 40%;
+  /* height: 40%; */
   width: 40%;
   background-color: white;
   float: left;
   margin: 0 10%;
   border: 2px solid black;
+  border-radius: 5px;
+}
+
+.centraltitle{
+  font-weight: bolder;
+  margin-left: 30px;
+  text-shadow: 3px 3px darkgrey;
+  margin-bottom: 40px;
+}
+
+.centraltxt{
+  text-align: center;
 }
 
 /*stile blocchi di destra */
@@ -122,6 +135,7 @@ ul{
   margin-bottom: 10%;
   background: white;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 
@@ -138,10 +152,12 @@ footer{
   height: 35%;
   background-color: darkgrey;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
 .links {
   height: 65%;
   background-color: yellow;
   border: 2px solid black;
+  border-radius: 5px;
 }

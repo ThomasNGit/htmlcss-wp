@@ -58,7 +58,7 @@ ul{
   font-size: 12px;
   padding: 8px;
   color: white;
-
+  margin: 0 4%;
 }
 
 /* stile del container centrale */
@@ -136,28 +136,43 @@ ul{
   background: white;
   border: 2px solid black;
   border-radius: 5px;
+  text-align: center;
 }
 
+.widgettitle{
+margin-bottom: 30px;
+
+}
 
 /* stile del footer */
 
 footer{
   width: 70%;
   height: 200px;
-  background-color: white;
   margin: 10px auto;
 }
 
 .credits{
   height: 35%;
-  background-color: darkgrey;
+  background-color: white;
   border: 2px solid black;
   border-radius: 5px;
+  position: relative;
+}
+
+.credits p{
+  font-style: italic;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: rgb(102, 102, 102);
 }
 
 .links {
   height: 65%;
-  background-color: yellow;
+  background-color: white;
   border: 2px solid black;
   border-radius: 5px;
 }

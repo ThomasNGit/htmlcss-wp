@@ -59,6 +59,13 @@ ul{
   padding: 8px;
   color: white;
   margin: 0 4%;
+
+}
+
+ul li:hover{
+ cursor: pointer;
+ transform: scale(1.5);
+ background-color: rgb(102, 102, 102);
 }
 
 /* stile del container centrale */
@@ -86,9 +93,16 @@ ul{
   border-radius: 5px;
 }
 
+.bloccosx i {
+  float: left;
+  margin: 10px;
+  color: orange;
+}
+
 .title{
-  text-align: center;
-  padding: 5px;
+  text-align: left;
+  padding: 16px;
+  margin-left: 20px;
 }
 
 .feedlink{
@@ -132,7 +146,7 @@ ul{
 .widget{
   height: 30%;
   width: 100%;
-  margin-bottom: 10%;
+  margin: 10% auto 10%;
   background: white;
   border: 2px solid black;
   border-radius: 5px;
@@ -140,7 +154,7 @@ ul{
 }
 
 .widgettitle{
-margin-bottom: 30px;
+margin: 10px auto 30px;
 
 }
 
@@ -175,4 +189,18 @@ footer{
   background-color: white;
   border: 2px solid black;
   border-radius: 5px;
+}
+
+.linkicon {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  margin: 0 4%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 250%;
+}
+
+.linkicon a{
+  color: black;
 }

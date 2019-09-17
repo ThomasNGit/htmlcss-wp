@@ -21,11 +21,11 @@ header {
   margin: 10px auto;
 }
 
+/* stile del logo */
 .immagine {
   height: 90%;
   background: url("../img/naturalbg.jpg") no-repeat center;
   background-size: cover;
-  border: 2px solid black;
   border: 10px solid white;
 
 }
@@ -42,10 +42,23 @@ h1 {
   color: white;
 }
 
+/* stile della navbar */
 .navbar {
   height:10%;
-  background-color: orange;
+  background-color: rgb(102, 102, 102);
   border: 2px solid black;
+}
+
+ul{
+  text-align: center;
+}
+
+.navlist{
+  display: inline-block;
+  font-size: 12px;
+  padding: 8px;
+  color: white;
+
 }
 
 /* stile del container centrale */
@@ -53,7 +66,7 @@ h1 {
 .maincontainer{
   height: 800px;
   width: 70%;
-  margin: 30px auto;
+  margin: 10px auto;
   background-color: green;
 }
 

@@ -83,7 +83,20 @@ ul{
   background-color: white;
   float: left;
   border: 2px solid black;
+}
 
+.title{
+  text-align: center;
+  padding: 5px;
+}
+
+.feedlink{
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  text-decoration: none;  
 }
 /* stile del blocco centrale */
 .bloccocentrale{

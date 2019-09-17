@@ -22,17 +22,28 @@ header {
 }
 
 .immagine {
-  height: 80%;
-  /* background-color: pink; */
+  height: 90%;
   background: url("../img/naturalbg.jpg") no-repeat center;
   background-size: cover;
   border: 2px solid black;
   border: 10px solid white;
-  /* box-sizing: content-box; */
+
+}
+.logo {
+  height: 70%;
+  background: url("../img/naturallogo.png") no-repeat center;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
 }
 
 .navbar {
-  height:20%;
+  height:10%;
   background-color: orange;
   border: 2px solid black;
 }
